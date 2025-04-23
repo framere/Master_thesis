@@ -1,0 +1,11 @@
+SYSTEM = CO2 crystal - PBE
+PREC = Normal
+ISMEAR = 0  ! Gaussian smearing
+GGA    = PE
+
+ENCUT = 520   ! largest ENMAX from POTCAR +30%
+
+# SIGMA = 0.1
+IBRION=-1   ! Static calculation: no ionic relaxation, just total energy
+
+
